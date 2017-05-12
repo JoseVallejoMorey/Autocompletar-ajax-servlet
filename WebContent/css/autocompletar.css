@@ -1,0 +1,29 @@
+.sujerencia-response{
+	width: 780px;
+	height: 100px;
+	position: relative;
+	background-color: #fff;
+	border: silver 1px solid;
+}
+
+.sujerencia-response ul{
+padding: 0px;
+margin: 0px;
+border: 1px solid silver;
+border-bottom: none;
+border-top: none;
+}
+.sujerencia-response li{
+border-bottom: 1px silver solid;
+padding: 3px 2px 2px 10px;
+color: #9FA3A6;
+}
+.sujerencia-response li:hover{
+	color: black;
+}
+.sujerencia-on{
+	display: block;
+}
+.sujerencia-off{
+	display: none;
+}

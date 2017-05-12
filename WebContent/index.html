@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>SM2 Panel</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+<link rel="stylesheet" type="text/css" href="css/autocompletar.css">
+
+
+</head>
+
+
+<body>
+
+
+		
+<!-- PANEL FORM -->
+<div class="text-center" style="padding:50px 0">
+	<div class="logo"><img alt="logo" src="img/logo.png"></div>
+
+<div class="container">
+	<div class="panel panel-danger">
+	    <div class="panel-heading">Panel de busqueda</div>
+	    <div class="panel-body">
+			<!-- Main Form -->
+		    <form id="buscador"> 
+			    <div class="col-md-12 col-sm-12">
+					<div class="form-group col-md-3 col-sm-3">
+			  			<div class="panel panel-default">
+			  				<div class="panel-body">
+			    				<label for="name">Nombre</label>
+			    				<input type="text" class="form-control input-sm" id="nombre" name="nombre" placeholder="">
+			  				</div>
+						</div>
+					</div>
+
+					<div class="form-group col-md-3 col-sm-3">
+			  			<div class="panel panel-default">
+			  				<div class="panel-body">
+			    				<label for="name">Apellido</label>
+			    				<input type="text" class="form-control input-sm" id="apellido" name="apellido" placeholder="">
+			  				</div>
+						</div>
+					</div>
+
+					<div class="form-group col-md-3 col-sm-3">
+			  			<div class="panel panel-default">
+			  				<div class="panel-body">
+			    				<label for="name">Empresa</label>
+			    				<input type="text" class="form-control input-sm" id="empresa" placeholder="" name="empresa">
+			  				</div>
+						</div>
+					</div>
+
+					<div class="form-group col-md-3 col-sm-3">
+						<div class="panel-body">
+		  					<button type="button" class="btn btn-default btn-lg">
+		  					Buscar 
+		    				<span class="glyphicon glyphicon-search"></span>
+		 				</button>
+					</div>
+
+					
+
+		  		</div>
+		  		<div id="ancla" class="col-md-9">
+					<div id="ancla" class="sujerencia-response sujerencia-off"></div>
+				</div>
+		    </form>	
+
+		
+
+		</div>
+		
+	</div>
+      
+<!-- end:Main Form -->
+</div>
+	
+
+		
+
+<!-- SCRIPT BOOSTRAP -->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/js_login.js"></script>		
+	<script src="js/autocompletar.js"></script>		
+
+	
+</body>
+</html>
